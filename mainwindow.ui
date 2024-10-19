@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>448</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>448</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ePaperPublisher</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>448</height>
+    </size>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>448</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Home</string>
+     </attribute>
+     <widget class="QProgressBar" name="progbarImgTx">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>250</y>
+        <width>340</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="textVisible">
+       <bool>true</bool>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbUploadImage">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>170</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Update Image</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblMsg">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>290</y>
+        <width>240</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Message</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lePath">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>110</y>
+        <width>400</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Path To Image Bin File &amp; Click Load</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbLoadFile">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>110</y>
+        <width>88</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Manual Operations</string>
+     </attribute>
+     <widget class="QPushButton" name="pbClearEpaper">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>130</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Clear ePaper</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbEpaperSleep">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>190</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>ePaper Sleep</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbInitImageMode">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>70</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Init. Img. Mode</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbInitEpaper">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>70</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Init Epaper</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbDisplayImage">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>130</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Transmit Img</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbRefreshEpaper">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>190</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Refresh ePaper</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Debug</string>
+     </attribute>
+     <widget class="QPushButton" name="pbTestMqtt">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>10</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	border-color: rgb(38, 162, 105);
+	background-color: rgb(36, 31, 49);
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(143, 240, 164);
+}
+
+QPushButton:disabled 
+{
+background-color: gray;
+color: lightgray;
+border: 1px solid darkgray;
+}</string>
+      </property>
+      <property name="text">
+       <string>Test Mqtt</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="debugbox">
+      <property name="geometry">
+       <rect>
+        <x>3</x>
+        <y>80</y>
+        <width>590</width>
+        <height>330</height>
+       </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

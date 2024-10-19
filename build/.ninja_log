@@ -1,0 +1,13 @@
+# ninja log v5
+6	11	0	CMakeFiles/clean.additional	13a0fc6ee4068d9d
+12	20	0	clean	a31eedcededa8236
+7	12	0	CMakeFiles/clean.additional	13a0fc6ee4068d9d
+12	20	0	clean	a31eedcededa8236
+5	469	1729308551000000000	ePaperPublisher_autogen/timestamp	8498ab58c7a63bef
+5	469	1729308551000000000	ePaperPublisher_autogen/mocs_compilation.cpp	8498ab58c7a63bef
+5	469	1729308551000000000	/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/ePaperPublisher_autogen/timestamp	8498ab58c7a63bef
+5	469	1729308551000000000	/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/ePaperPublisher_autogen/mocs_compilation.cpp	8498ab58c7a63bef
+555	4061	1729308555000000000	CMakeFiles/ePaperPublisher.dir/ePaperPublisher_autogen/mocs_compilation.cpp.o	2fe1c4408a8a28f8
+556	4167	1729308555000000000	CMakeFiles/ePaperPublisher.dir/main.cpp.o	88bd9cb5c5eac2ad
+556	4659	1729308555000000000	CMakeFiles/ePaperPublisher.dir/mainwindow.cpp.o	f068cb3322c84a5d
+4663	5115	1729308556000000000	ePaperPublisher	7b689a1375fd9ad8

@@ -1,0 +1,9 @@
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/ePaperPublisher.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/edit_cache.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/rebuild_cache.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/list_install_components.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/install.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/install/local.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/install/strip.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/ePaperPublisher_autogen_timestamp_deps.dir
+/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build/CMakeFiles/ePaperPublisher_autogen.dir

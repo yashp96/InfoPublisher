@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-89761bf89013da8cc3e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ePaperPublisher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ePaperPublisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ePaperPublisher-Debug-6e10b55be76ae1c47b5e.json",
+					"name" : "ePaperPublisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ePaperPublisher_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ePaperPublisher_autogen-Debug-507e41e26fba4b858eb7.json",
+					"name" : "ePaperPublisher_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ePaperPublisher_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ePaperPublisher_autogen_timestamp_deps-Debug-7147d6d10fdcb7a7d82a.json",
+					"name" : "ePaperPublisher_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher/build",
+		"source" : "/home/yash/Desktop/SharedFolder/Experimental/InfoPublisher/InfoPublisher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
